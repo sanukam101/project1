@@ -1,0 +1,1 @@
+print("These is the method i used to fix all my codes")
