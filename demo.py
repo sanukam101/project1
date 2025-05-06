@@ -1,6 +1,10 @@
-print("this is project 1 code in py")
+from flask import Flask
 
-print("kindly contact us")
+app = Flask(__name__)
 
-print("adding home page slider here")
+@app.route('/')
+def hello():
+    return "Hello from Flask!"
 
+if __name__ == '__main__':
+    app.run(debug=True)
